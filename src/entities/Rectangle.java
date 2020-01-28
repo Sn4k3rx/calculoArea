@@ -1,5 +1,7 @@
 package entities;
 
+import entities.enums.Color;
+
 public class Rectangle extends Shape{
 
 	private Double widht;
@@ -9,7 +11,8 @@ public class Rectangle extends Shape{
 		
 	}
 	
-	public Rectangle(Double width, Double height) {
+	public Rectangle(Color color, Double width, Double height) {
+		super(color);
 		this.height = height;
 		this.widht = width;
 	}
