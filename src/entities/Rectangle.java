@@ -1,5 +1,6 @@
 package entities;
 
-public class Rectangle {
+public class Rectangle extends Shape{
+
 
 }
